@@ -1,4 +1,4 @@
-# Badminton Booking System Mobile Application (Staff Module)
+# Badminton Court Booking Mobile Application (Staff Module)
 This is a mobile application developed with Android Studio using Java and Firebase Realtime Database.
 
 ## 🎯Objectives
