@@ -2,7 +2,7 @@
 This is a mobile application developed with Android Studio using Java and Firebase Realtime Database.
 
 ## 🎯Objectives
-It aims to ease the work of user when booking badminton courts as well as able to know all the feedbacks given from customers who shares the same application.
+It aims to make the user's life easier when booking badminton courts and to keep track of all feedback provided by customers who use the same application.
 
 It is separated into two modules, [User](https://github.com/zhenghoom/badminton-app) and Staff Module. 
 
