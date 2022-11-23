@@ -1,7 +1,5 @@
 package com.example.badminton_app_admin.Model;
 
-import com.example.badminton_app_admin.Model.Booking;
-
 import java.util.List;
 
 public class Request {

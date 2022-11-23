@@ -61,11 +61,14 @@ public class SignIn extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.child(localPhone).exists()) {
                     mDialog.dismiss();
+
                     User user = dataSnapshot.child(localPhone).getValue(User.class);
                     user.setPhone(localPhone);
+
                     if (Boolean.parseBoolean(user.getIsStaff())) // If isStaff == true
                     {
                         if (user.getPassword().equals(localPassword)) {
+                            Toast.makeText(SignIn.this, "Sign in successful!", Toast.LENGTH_SHORT).show();
                             Intent login = new Intent(SignIn.this, Home.class);
                             Common.currentUser = user;
                             startActivity(login);

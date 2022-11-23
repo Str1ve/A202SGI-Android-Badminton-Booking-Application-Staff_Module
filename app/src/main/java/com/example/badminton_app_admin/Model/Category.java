@@ -1,7 +1,5 @@
 package com.example.badminton_app_admin.Model;
 
-import android.media.Image;
-
 public class Category {
     private String Name;
     private String Image;
